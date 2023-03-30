@@ -30,3 +30,14 @@ while ($true) {
         Start-Sleep -Seconds 10
     }
 }
+
+: '
+ the purpose of the script is to randomize the MAC address of the computer whenever the internet connection is lost. 
+ This is done to prevent the ISP from tracking the user's online activity by associating their MAC address with their
+ internet usage. 
+ 
+ The purpose of the service is to run the script in the background as a Windows service, 
+ so that it can monitor the internet connection continuously and randomize the MAC address automatically 
+ whenever the connection is lost. This way, the user doesn't have to manually run the script every time 
+ the internet connection drops.
+'
