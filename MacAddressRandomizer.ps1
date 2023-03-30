@@ -39,5 +39,5 @@ while ($true) {
  The purpose of the service is to run the script in the background as a Windows service, 
  so that it can monitor the internet connection continuously and randomize the MAC address automatically 
  whenever the connection is lost. This way, the user doesn't have to manually run the script every time 
- the internet connection drops.
+ the internet connection drops.'
 '
